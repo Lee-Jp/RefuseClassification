@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "垃圾分类倡议书",
+  "usingComponents": {
+    "poster": "/components/wxa-plugin-canvas/poster/index"
+  }
+}

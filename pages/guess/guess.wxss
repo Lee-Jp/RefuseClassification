@@ -1,0 +1,119 @@
+page {
+  height: 100%;
+}
+
+.que {
+  width: 80%;
+  background-color: rgb(0, 116, 136);
+  border-radius: 30rpx;
+  padding: 25rpx 10%;
+  font-size: 32rpx;
+  line-height: 36rpx;
+  color: #fff;
+}
+
+.que text {
+  margin: 0 10rpx;
+  font-size: 36rpx;
+}
+
+.anw {
+  width: 70%;
+  background-color: #fff;
+  margin: 60rpx auto 0;
+  padding: 25rpx 10%;
+  border-radius: 20rpx;
+}
+
+.anw view {
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #666;
+  border-radius: 50rpx;
+  padding: 25rpx 10%;
+  font-size: 32rpx;
+  line-height: 36rpx;
+  color: #000;
+  margin: 30rpx 0;
+}
+.restable{
+  width: 94%;
+  border-radius: 30rpx;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px #ddd;
+  margin: 0 auto;
+}
+.resTitle{
+  text-align: center;
+  font-size: 42rpx;
+  margin: 30rpx;
+  font-weight: 800;
+}
+.resScore{
+  text-align: center;
+  font-size: 50rpx;
+  color: #ff0000;
+  font-weight: bold;
+
+}
+/* 表格开始 */
+.table {
+  border: 1px solid #dadada;
+  border-right: 0;
+  border-bottom: 0;
+  width: 95%;
+  margin: 30rpx auto;
+  font-size: 32rpx;
+
+}
+
+.tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.th, .td {
+  padding:4px;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+  width: 100%;
+}
+
+.th {
+  font-weight: 400;
+  background-color: #dadada;
+}
+/* 表格结束 */
+.bottomPage {
+  position: fixed;
+  bottom: 30rpx;
+  font-size: 24rpx;
+  color: #999;
+  text-align: center;
+  width: 100%;
+}
+.sign{
+   /* position: fixed;
+  bottom: 80rpx;
+  right: 0;
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  background-color: #F4D03F;
+  background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+  text-align: center;
+  font-size: 32rpx;
+  line-height: 160rpx;
+  color: #fff; */
+margin: 50rpx auto 20rpx;
+width: 92%;
+border-radius: 10rpx;
+padding: 20rpx 0;
+ background-color: #007488;
+ color: #fff;
+ text-align: center;
+}

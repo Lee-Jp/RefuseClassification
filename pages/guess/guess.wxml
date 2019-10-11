@@ -1,0 +1,29 @@
+<!--pages/guess/guess.wxml-->
+<view class="container">
+  <view wx:if="{{question<=10}}">
+    <view class="que">{{question}}、请猜测
+      <text>{{random.n}}</text>是什么垃圾？</view>
+    <!-- {{random.n}}----{{random.c}} -->
+    <view class="anw">
+      <view wx:for="{{types}}" wx:key="{{item.id}}" data-choose="{{item.id}}" bindtap="guess">{{item.name}}</view>
+    </view>
+    <view class="bottomPage">{{question}}/10</view>
+  </view>
+  <view wx:else class="restable">
+    <view class="resTitle">全国垃圾分类统一考试</view>
+    <view class="resScore">{{score}}分</view>
+    <view class="table">
+      <view class="tr" >
+        <view class="th" style="font-weight: 800!important;width:180rpx;">题号</view>
+        <view class="th" style="font-weight: 800!important;">垃圾名称</view>
+        <view class="th" style="font-weight: 800!important;">所属分类</view>
+      </view>
+      <view class="tr" wx:for="{{queResult}}" wx:key="{{item.n}}">
+        <view class="td" style="width:180rpx;">{{item.num}}</view>
+        <view class="td">{{item.n}}</view>
+        <view class="td" style="background-color:{{item.bgcolor}};color:#fff;">{{item.c}}</view>
+      </view>
+    </view>
+    <view class="sign" bindtap="sign">去签署倡议书→</view>
+  </view>
+</view>

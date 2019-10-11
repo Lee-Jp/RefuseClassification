@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+  align-items: stretch;
+}
+.cell {
+  margin: 10rpx;
+  text-align: left;
+  height: 76rpx;
+  font-size: 26;
+}
+
+.line {
+  height: 1rpx;
+  background-color: rgb(221, 221, 221);
+  margin-top: 20rpx;
+}

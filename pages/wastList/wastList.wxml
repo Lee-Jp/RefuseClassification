@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class="cell" wx:for="{{wasts}}" wx:key="{{item.id}}">
+    <text>{{item.n}}</text>
+    <view class='line'></view>
+  </view>
+</view>

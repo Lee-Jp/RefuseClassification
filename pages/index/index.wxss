@@ -1,0 +1,163 @@
+/**index.wxss**/
+
+page {
+  height: 100%;
+}
+
+.searchFiled {
+  background-color: white;
+  color: rgb(156, 156, 156);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  justify-content: space-between;
+  border-radius: 30rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.input {
+  text-align: left;
+  font-size: 30rpx;
+  font-weight: 400;
+  flex-grow: 1;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.collectionView {
+  padding: 0rpx;
+  padding-top: 40rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cell {
+  width: 40%;
+  height: 180rpx;
+  border-radius: 30rpx;
+  background-color: white;
+  margin-bottom: 40rpx;
+  padding: 24rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  /* background-color: red; */
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  padding: 20rpx;
+}
+
+.count {
+  font-size: 80rpx;
+  font-weight: bold;
+}
+
+.typeName {
+  font-size: 30rpx;
+  color: #3b3b3b;
+}
+
+.searchList {
+  padding-top: 12rpx;
+}
+
+.searchCell {
+  margin: 10rpx;
+  text-align: left;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 20;
+}
+
+.line {
+  height: 2rpx;
+  background-color: rgb(221, 221, 221);
+}
+
+.resultback {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  background-color: rgba(75, 75, 75, 0.384);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultView {
+  width: 80%;
+  background-color: white;
+  border-radius: 30rpx;
+  color: rgb(41, 41, 41);
+}
+
+.resultHead {
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200rpx;
+  border-radius: 30rpx 30rpx 0 0;
+  font-size: 60rpx;
+  font-weight: bold;
+  color: rgb(39, 39, 39);
+}
+
+.desView {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40rpx;
+  word-break: break-all;
+  font-size: 30rpx;
+}
+
+.bigIcon {
+  width: 100rpx;
+  height: 100rpx;
+  padding: 50rpx;
+  border-radius: 30rpx;
+  margin-right: 20rpx;
+  flex-shrink: 0;
+}
+
+.title {
+  background-color: rgb(233, 233, 233);
+  line-height: 80rpx;
+  height: 80rpx;
+  padding-left: 30rpx;
+  font-size: 34rpx;
+}
+
+.des {
+  margin: 30rpx;
+  font-size: 30rpx;
+}
+.cai{
+  margin: 50rpx auto 0;
+  text-align: center;
+  border-radius: 30rpx;
+  background-color: #F4D03F;
+background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+
+  padding: 30rpx 60rpx;
+  color: #fff;
+}
